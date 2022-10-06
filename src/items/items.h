@@ -261,7 +261,13 @@ class ItemType
 		uint8_t shootRange = 1;
 		uint8_t imbuementSlot = 0;
 		int8_t hitChance = 0;
-
+		
+		// 12.90
+		bool wearOut = false;
+		bool clockExpire = false;
+		bool expire = false;
+		bool expireStop = false;
+		
 		bool forceUse = false;
 		bool hasHeight = false;
 		bool walkStack = true;
